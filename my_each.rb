@@ -1,4 +1,8 @@
 def my_each (ary)
-  
-    puts elary.each do |el|
+  i = 0 
+  while i < ary.length 
+    yield(ary[i])
+    i = i + 1 
+  end
+  ary 
 end
