@@ -1,4 +1,4 @@
 def my_each (ary)
-  ary.each do |el|
-    puts el
+  
+    puts elary.each do |el|
 end
